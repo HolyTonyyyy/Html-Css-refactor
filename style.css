@@ -9,8 +9,9 @@ body {
 }
 
 a {
-	color: #333;
+	color: #ffbb00;
 	text-decoration: none;
+	
 }
 
 ul {
@@ -25,10 +26,13 @@ h1, h2, h3 {
 	font-weight: normal;
 }
 
+ul a {
+	text-shadow: 1px 1px #ffe17c;
+}
 /* Header Styles */
 
 header {
-	background-color: #333;
+	background-image: url("background.jpg");
 	color: #fff;
 }
 
@@ -45,7 +49,7 @@ nav ul {
 
 nav ul li {
 	margin-right: 20px;
-	color: red
+	color: #ffbb00;
 }
 
 nav ul li:last-child {
@@ -56,6 +60,8 @@ nav a {
 	display: block;
 	padding: 10px;
 }
+
+
 
 .hero {
 	display: flex;
@@ -70,14 +76,18 @@ nav a {
 
 .hero h1 {
 	font-size: 60px;
-	margin-bottom: 20px;
-	text-shadow: 2px 2px #000;
+	text-shadow: 2px 2px #ffd994;
 }
 
 .hero p {
 	font-size: 24px;
-	margin-bottom: 40px;
-	text-shadow: 2px 2px #000;
+	text-shadow: 1px 1px hsl(36, 100%, 80%);
+}
+
+.hero h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-shadow: 1.5px 1.5px #ffde85;
 }
 
 .btn {
@@ -94,14 +104,16 @@ nav a {
 /* ----Products Styles */
 
 .products {
+	background-color: #080808;
 	padding: 50px;
 }
 
 .products h2 {
+	font-family: serif;
 	font-size: 36px;
 	margin-bottom: 40px;
 	text-align: center;
-	color: rgb(255, 255, 255)
+	color: rgb(255, 225, 126)
 }
 
 .product {
@@ -118,11 +130,15 @@ nav a {
 }
 
 .product h3 {
+	color:hsl(36, 100%, 80%);
+	font-family: serif;
 	font-size: 24px;
 	margin-bottom: 10px;
 }
 
 .product p {
+	color:hsl(36, 100%, 80%);
+	font-family: serif;
 	font-size: 20px;
 	margin-bottom: 20px;
 }
@@ -208,5 +224,13 @@ section {
  /*---- Title font Color----*/
 
  .hero{
-	color: red
+	color: #ffbb00;
  }
+
+ @media screen and (max-width: 768px) {
+	main,
+	nav {
+	  flex-direction: column;
+	}
+  }
+  
