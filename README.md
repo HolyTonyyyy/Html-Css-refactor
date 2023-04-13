@@ -8,3 +8,4 @@ this is first EVER wesbite inspired by my Love for Gaming
 
 	the same goes for the CSS style sheet although some of the terms in css are still not to my liking for example text aligning, importing images and stuff like that 
 		
+	Would like some feedback on the layout	
